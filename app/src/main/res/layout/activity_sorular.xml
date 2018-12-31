@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".sorular"
+    android:background="@drawable/arkaplan"
+    xmlns:ads="http://schemas.android.com/apk/res-auto">
+
+    <ImageButton
+        android:src="@drawable/clock"
+        android:scaleType="fitCenter"
+        android:background="@android:color/transparent"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"/>
+
+    <TextView
+        android:src="@drawable/clock"
+        android:scaleType="fitCenter"
+        android:background="@android:color/transparent"
+        android:id="@+id/zaman"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentLeft="true"
+        android:text="00"
+        android:textColor="@color/colorPrimary"
+        android:textSize="40sp"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="35dp"/>
+
+    <Button
+        android:id="@+id/sayi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:text="0"
+        android:clickable="false"
+        android:background="@color/dogru"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="35dp"/>
+
+
+    <ImageView
+        android:id="@+id/sayi1"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="2dp"
+        android:layout_marginLeft="2dp"
+        android:layout_marginTop="150dp"
+        android:src="@drawable/sayi0" />
+
+    <ImageView
+        android:id="@+id/sayi2"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="150dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="0dp"
+        android:src="@drawable/sayi0" />
+
+    <ImageView
+        android:id="@+id/islem"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="205dp"
+        app:srcCompat="@drawable/eksi" />
+
+    <Button
+        android:textSize="20dp"
+        android:textColor="@color/colorPrimary"
+        android:background="@drawable/satir_arkaplan"
+        android:id="@+id/btn1"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="70dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginBottom="200dp"
+        android:text="Button" />
+
+    <Button
+        android:textSize="20dp"
+        android:textColor="@color/colorPrimary"
+        android:background="@drawable/satir_arkaplan"
+        android:id="@+id/btn2"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="70dp"
+        android:layout_marginRight="70dp"
+        android:layout_marginBottom="200dp"
+        android:text="Button"
+        />
+
+    <Button
+        android:textSize="20dp"
+        android:textColor="@color/colorPrimary"
+        android:background="@drawable/satir_arkaplan"
+        android:id="@+id/btn3"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="70dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginBottom="120dp"
+        android:text="Button"  />
+
+    <Button
+        android:textSize="20dp"
+        android:textColor="@color/colorPrimary"
+        android:background="@drawable/satir_arkaplan"
+        android:id="@+id/btn4"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="70dp"
+        android:layout_marginRight="70dp"
+        android:layout_marginBottom="120dp"
+        android:text="Button" />
+
+    <Button
+        android:id="@+id/puan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="@android:color/transparent"
+        android:text="50"
+        android:textColor="@color/colorAccent"
+        android:visibility="invisible" />
+
+    <com.google.android.gms.ads.AdView
+        android:layout_centerHorizontal="true"
+        android:id="@+id/adView_sorular"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        ads:adSize="BANNER"
+        android:layout_marginBottom="8dp"
+        ads:adUnitId="ca-app-pub-5507053716111047/9875065451">
+    </com.google.android.gms.ads.AdView>
+
+</RelativeLayout>

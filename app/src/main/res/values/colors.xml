@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#b2e6fd</color>
+    <color name="colorAccent">#ffb20c</color>
+    <color name="dogru">#1aaf22</color>
+    <color name="yanlis">#f2262a</color>
+</resources>

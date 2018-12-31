@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_islemler"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.yldzmamak.eglencelimatematik.Islemler"
+    android:background="@drawable/arkaplan"
+    xmlns:ads="http://schemas.android.com/apk/res-auto">
+
+    <ImageButton
+        android:scaleType="fitCenter"
+        android:src="@drawable/arti"
+        android:id="@+id/btnToplama"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/satir_arkaplan"
+        android:textColor="@color/colorPrimary"
+        tools:ignore="ContentDescription" />
+
+    <ImageButton
+        android:scaleType="fitCenter"
+        android:src="@drawable/eksi"
+        android:id="@+id/btnCikarma"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="170dp"
+        android:background="@drawable/satir_arkaplan"
+        android:textColor="@color/colorPrimary"
+        tools:ignore="ContentDescription" />
+
+    <ImageButton
+        android:scaleType="fitCenter"
+        android:src="@drawable/carpma"
+        android:id="@+id/btnCarpma"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="310dp"
+        android:background="@drawable/satir_arkaplan"
+        android:textColor="@color/colorPrimary"
+        tools:ignore="ContentDescription" />
+    <ImageButton
+        android:scaleType="fitCenter"
+        android:src="@drawable/bolme"
+        android:id="@+id/btnBolme"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="450dp"
+        android:background="@drawable/satir_arkaplan"
+        android:textColor="@color/colorPrimary"
+        tools:ignore="ContentDescription" />
+
+    <com.google.android.gms.ads.AdView
+        android:layout_gravity="center"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/adView_islemler"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        ads:adSize="BANNER"
+        android:layout_marginBottom="8dp"
+        ads:adUnitId="ca-app-pub-5507053716111047/9875065451">
+    </com.google.android.gms.ads.AdView>
+
+</RelativeLayout>
